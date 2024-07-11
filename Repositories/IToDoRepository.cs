@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services
+namespace Repositories
 {
-    public interface IToDoService
+    public interface IToDoRepository
     {
         public Task<List<Todo>> GetAllTodoAsync();
         public Task<Todo> GetTodoByIdAsync(int id);
